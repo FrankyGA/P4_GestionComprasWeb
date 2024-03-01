@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+	margin: 0; /* Elimina el margen predeterminado del body */
+	padding: 0;
+	/* Ruta de imagen de fondo */
+	background-image: url('../imagenes/mujerBolsas.jpg');
+	background-size: cover;
+	/* Ajusta la imagen para cubrir todo el fondo */
+	background-position: center; /* Centra la imagen */
+	background-repeat: no-repeat; /* Evita la repetición de la imagen */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh; /* Altura del viewport */
+}
+
+.card {
+	width: 400px;
+	margin: 0 auto; /* Centrar la card */
+	margin-top: 50px; /* Espacio superior */
+	padding: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+h1 {
+	text-align: center; /* Centrar el título */
+}

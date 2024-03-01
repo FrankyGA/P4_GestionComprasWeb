@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*---------------------------Body---------------------------*/
+body {
+	margin: 0; /* Elimina el margen predeterminado del body */
+	padding: 0;
+    background-image: url('../imagenes/compras.jpg');
+    background-size: cover; /* para cubrir toda la ventana */
+    background-repeat: no-repeat; /* para evitar la repetición */
+    background-position: center; /* Centra la imagen */
+    height: 100vh; 
+    margin: 0;     
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+/*---------------------------Nav---------------------------*/
+
+/* Estilos para las opciones del menú */
+.navbar-nav .nav-link {
+    font-weight: bold;
+    font-size: 15px;
+    /* Tamaño de la fuente */
+}
+
+/* Efecto de subrayado al pasar el ratón */
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+    /*Reduce la opacidad*/
+    transform: scale(1.1);
+    /*Escala la imagen*/
+}
+
+
+
+
+
+
+
